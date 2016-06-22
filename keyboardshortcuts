@@ -1,6 +1,9 @@
-//last backed up 06/22/16
 // Place your key bindings in this file to overwrite the defaults
+//last updated 6/22/16
 [
+  ////////////////////////////test area//////////////////////////////
+
+  //////////////////////////////////////////////////////////////////
   { "key": "ctrl+cmd+down",          "command": "editor.action.insertCursorBelow",
                                      "when": "editorTextFocus" },
   { "key": "ctrl+cmd+up",          "command": "editor.action.insertCursorAbove",
@@ -28,9 +31,9 @@
   { "key": "ctrl+n",                 "command": "cursorUndo",
                                      "when": "editorTextFocus" },
   //jumping movement
-  { "key": "ctrl+e",                "command": "cursorEnd",
+  { "key": "ctrl+cmd+e",                "command": "cursorEnd",
                                      "when": "editorTextFocus" },
-  { "key": "ctrl+q",                "command": "cursorHome",
+  { "key": "ctrl+cmd+q",                "command": "cursorHome",
                                      "when": "editorTextFocus" },
   { "key": "ctrl+z",                "command": "cursorPageUp",
                                       "when": "editorTextFocus" },
@@ -40,21 +43,21 @@
                                      "when": "editorTextFocus" },
   { "key": "ctrl+cmd+s",                "command": "extension.cursorDownMultiple",
                                      "when": "editorTextFocus" },
-  { "key": "ctrl+alt+a",             "command": "cursorWordEndLeft",
+  { "key": "ctrl+q",             "command": "cursorWordStartLeft",
                                      "when": "editorTextFocus" },
-  { "key": "ctrl+alt+d",             "command": "cursorWordEndRight",
+  { "key": "ctrl+e",             "command": "cursorWordStartRight",
                                      "when": "editorTextFocus" },
   { "key": "ctrl+cmd+d",             "command": "extension.cursorRightMultiple",
                                      "when": "editorTextFocus" },                                                                            
   { "key": "ctrl+cmd+a",             "command": "extension.cursorLeftMultiple",
                                      "when": "editorTextFocus" },                                                                            
-  { "key": "ctrl+cmd+alt+w",             "command": "extension.cursorUpHalf",
+  { "key": "ctrl+alt+w",             "command": "extension.cursorUpHalf",
                                      "when": "editorTextFocus" },                                                                                                                 
-  { "key": "ctrl+cmd+alt+s",             "command": "extension.cursorDownHalf",
+  { "key": "ctrl+alt+s",             "command": "extension.cursorDownHalf",
                                      "when": "editorTextFocus" },                                            
-  { "key": "ctrl+cmd+alt+d",             "command": "extension.cursorRightLarge",
+  { "key": "ctrl+alt+d",             "command": "extension.cursorRightLarge",
                                      "when": "editorTextFocus" },                                                                                            
-  { "key": "ctrl+cmd+alt+a",             "command": "extension.cursorLeftLarge",
+  { "key": "ctrl+alt+a",             "command": "extension.cursorLeftLarge",
                                      "when": "editorTextFocus" },                                                                                                                                 
   //moving select
   { "key": "shift+ctrl+w",            "command": "cursorUpSelect",
@@ -100,17 +103,13 @@
   ///////////
   //select jumping
   
-  { "key": "ctrl+shift+r",          "command": "cursorPageUpSelect",
+  { "key": "ctrl+cmd+shift+e",          "command": "cursorEndSelect",
                                      "when": "editorTextFocus" },
-  { "key": "ctrl+shift+f",          "command": "cursorPageDownSelect",
+  { "key": "ctrl+cmd+shift+q",           "command": "cursorHomeSelect",
                                      "when": "editorTextFocus" },
-  { "key": "shift+ctrl+e",          "command": "cursorEndSelect",
+  { "key": "ctrl+shift+e",       "command": "cursorWordEndRightSelect",
                                      "when": "editorTextFocus" },
-  { "key": "shift+ctrl+q",           "command": "cursorHomeSelect",
-                                     "when": "editorTextFocus" },
-  { "key": "ctrl+alt+shift+d",       "command": "cursorWordEndRightSelect",
-                                     "when": "editorTextFocus" },
-  { "key": "ctrl+alt+shift+a",        "command": "cursorWordStartLeftSelect",
+  { "key": "ctrl+shift+q",        "command": "cursorWordStartLeftSelect",
                                      "when": "editorTextFocus" },
   { "key": "ctrl+m",                 "command": "expandLineSelection",
                                      "when": "editorTextFocus" },
@@ -118,13 +117,13 @@
                                      "when": "editorTextFocus" },
   { "key": "ctrl+p",                 "command": "editor.action.indentLines",
                                      "when": "editorTextFocus" },
-  { "key": "ctrl+cmd+alt+shift+w",   "command": "extension.cursorUpHalfSelect",
+  { "key": "ctrl+alt+shift+w",   "command": "extension.cursorUpHalfSelect",
                                      "when": "editorTextFocus" },
-  { "key": "ctrl+cmd+alt+shift+s",   "command": "extension.cursorDownHalfSelect",
+  { "key": "ctrl+alt+shift+s",   "command": "extension.cursorDownHalfSelect",
                                      "when": "editorTextFocus" },                                                                          
-  { "key": "ctrl+cmd+alt+shift+d",   "command": "extension.cursorRightLargeSelect",
+  { "key": "ctrl+alt+shift+d",   "command": "extension.cursorRightLargeSelect",
                                      "when": "editorTextFocus" },
-  { "key": "ctrl+cmd+alt+shift+a",   "command": "extension.cursorLeftLargeSelect",
+  { "key": "ctrl+alt+shift+a",   "command": "extension.cursorLeftLargeSelect",
                                      "when": "editorTextFocus" },                                     
   //editing
   { "key": "ctrl+,",                "command": "undo",
@@ -166,9 +165,9 @@
                                      "when": "editorTextFocus" },                              
   { "key": "ctrl+cmd+shift+k",         "command": "deleteAllRight",
                                      "when": "editorTextFocus" },
-  { "key": "ctrl+shift+alt+w",  "command": "editor.action.smartSelect.grow",
+  { "key": "ctrl+shift+b",  "command": "editor.action.smartSelect.grow",
                                       "when": "editorTextFocus" },
-  { "key": "ctrl+shift+alt+s",   "command": "editor.action.smartSelect.shrink",
+  { "key": "ctrl+cmd+shift+b",   "command": "editor.action.smartSelect.shrink",
                                       "when": "editorTextFocus" },                                                                                                        
   //move windows
   { "key": "ctrl+-",            "command": "workbench.action.moveActiveEditorLeft" },
