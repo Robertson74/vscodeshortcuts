@@ -1,0 +1,90 @@
+{
+    "name": "moveCursor",
+    "displayName": "moveCursor",
+    "description": "extensions to move the cursor more precisely",
+    "version": "0.0.1",
+    "publisher": "m",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.cursorUpMultiple",
+        "onCommand:extension.cursorDownMultiple",
+        "onCommand:extension.cursorRightMultiple",
+        "onCommand:extension.cursorUpHalf",
+        "onCommand:extension.cursorDownHalf",
+        "onCommand:extension.cursorRightLarge",
+        "onCommand:extension.cursorLeftLarge",
+        "onCommand:extension.cursorUpMultipleSelect",
+        "onCommand:extension.cursorDownMultipleSelect",
+        "onCommand:extension.cursorRightMultipleSelect",
+        "onCommand:extension.cursorLeftMultipleSelect",
+        "onCommand:extension.cursorRightLargeSelect",
+        "onCommand:extension.cursorLeftLargeSelect",
+        "onCommand:extension.cursorUpHalfSelect",
+        "onCommand:extension.cursorDownHalfSelect"
+    ],
+    "main": "./extension",
+    "contributes": {
+        "commands": [{
+            "command": "extension.cursorUpMultiple",
+            "title": "Cursor Up Multiple Lines"
+        },{
+            "command": "extension.cursorDownMultiple",
+            "title": "Cursor Down Multiple Lines"
+        },{
+            "command": "extension.cursorRightMultiple",
+            "title": "Cursor Right Multiple Lines"
+        },{
+            "command": "extension.cursorLeftMultiple",
+            "title": "Cursor Left Multiple Lines"
+        },{
+            "command": "extension.cursorUpHalf",
+            "title": "Cursor Up Half a Page"
+        },{
+            "command": "extension.cursorDownHalf",
+            "title": "Cursor Down Half a Page"
+        },{
+            "command": "extension.cursorRightLarge",
+            "title": "Cursor Right a Large Amount"
+        },{
+            "command": "extension.cursorLeftLarge",
+            "title": "Cursor Left a Large Amount"
+        },{
+            "command": "extension.cursorUpMultipleSelect",
+            "title": "Cursor Up Selecting Multiple Lines"
+        },{
+            "command": "extension.cursorDownMultipleSelect",
+            "title": "Cursor Down Selecting Multiple Lines"
+        },{
+            "command": "extension.cursorRightMultipleSelect",
+            "title": "Cursor Right Selecting Multiple Lines"
+        },{
+            "command": "extension.cursorLeftMultipleSelect",
+            "title": "Cursor Left Selecting Multiple Lines"
+        },{
+            "command": "extension.cursorRightLargeSelect",
+            "title": "Cursor Right Selecting Large Amount of Lines"
+        },{
+            "command": "extension.cursorLeftLargeSelect",
+            "title": "Cursor Left Selecting Large Amount of Lines"
+        },{
+            "command": "extension.cursorUpHalfSelect",
+            "title": "Cursor Up Selecting Large Amount of Lines"
+        },{
+            "command": "extension.cursorDownHalfSelect",
+            "title": "Cursor Down Selecting Large Amount of Lines"
+        }
+        ]
+        
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "devDependencies": {
+        "vscode": "^0.11.0"
+    }
+}
