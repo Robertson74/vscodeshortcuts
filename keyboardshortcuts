@@ -1,5 +1,6 @@
 // Place your key bindings in this file to overwrite the defaults
-//last updated 6/22/16
+//////////////FPS - (F)irst person shooter (P)rograming (S)hortcuts
+//last updated 7/21/16
 [
   ////////////////////////////test area//////////////////////////////
 
@@ -97,10 +98,10 @@
   { "key": "cmd+shift+a",           "command": "workbench.files.action.addToWorkingFiles" },
   { "key": "cmd+shift+x",           "command": "workbench.files.action.closeAllFiles" },
   { "key": "cmd+shift+z",               "command": "workbench.files.action.closeFile" },
-  // - workbench.action.files.newFile  
-  ///////////
+  { "key": "cmd+w",               "command": "workbench.action.closeEditorsInGroup" },  
 
-  ///////////
+
+
   //select jumping
   
   { "key": "ctrl+cmd+shift+e",          "command": "cursorEndSelect",
@@ -170,8 +171,11 @@
   { "key": "ctrl+cmd+shift+b",   "command": "editor.action.smartSelect.shrink",
                                       "when": "editorTextFocus" },                                                                                                        
   //move windows
-  { "key": "ctrl+-",            "command": "workbench.action.moveActiveEditorLeft" },
-  { "key": "ctrl+=",            "command": "workbench.action.moveActiveEditorRight" }
-
+{ "key": "ctrl+-",            "command": "workbench.action.moveActiveEditorGroupLeft" },
+{ "key": "ctrl+=",           "command": "workbench.action.moveActiveEditorGroupRight" },
+{ "key": "ctrl+cmd+z",          "command": "workbench.action.maximizeEditor"},
+{ "key": "ctrl+cmd+x",          "command": "workbench.action.evenEditorWidths"},
+  //disabled keys
+  { "key": "cmd+f2",                "command": "-editor.action.changeAll"}
 
 ]
