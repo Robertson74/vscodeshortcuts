@@ -33,12 +33,12 @@
   <item>
     <name>Delete word back</name>
     <identifier>Delete word back</identifier>
-    <autogen>__KeyToKey__ KeyCode::J, ModifierFlag::OPTION_L, ModifierFlag::COMMAND_L, KeyCode::DELETE, ModifierFlag::OPTION_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::J, ModifierFlag::OPTION_L, ModifierFlag::COMMAND_R, KeyCode::DELETE, ModifierFlag::OPTION_L</autogen>
   </item>      
   <item>
     <name>Delete word forward</name>
     <identifier>Delete word forward</identifier>
-    <autogen>__KeyToKey__ KeyCode::K, ModifierFlag::OPTION_L, ModifierFlag::COMMAND_L, KeyCode::FORWARD_DELETE, ModifierFlag::OPTION_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::K, ModifierFlag::OPTION_L, ModifierFlag::COMMAND_R, KeyCode::FORWARD_DELETE, ModifierFlag::OPTION_L</autogen>
   </item>        
   <item>
     <name>Delete back</name>
