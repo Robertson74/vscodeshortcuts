@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Arrow Down to control s</name>
+    <identifier>Arrow Down to s</identifier>
+    <autogen>__KeyToKey__ KeyCode::S, ModifierFlag::OPTION_L, KeyCode::CURSOR_DOWN</autogen>
+  </item>
+  <item>
+    <name>Arrow up to control w</name>
+    <identifier>Arrow up to control w</identifier>
+    <autogen>__KeyToKey__ KeyCode::W, ModifierFlag::OPTION_L, KeyCode::CURSOR_UP</autogen>
+  </item>  
+  <item>
+    <name>Arrow left to control a</name>
+    <identifier>Arrow left to control a</identifier>
+    <autogen>__KeyToKey__ KeyCode::A, ModifierFlag::OPTION_L, KeyCode::CURSOR_LEFT</autogen>
+  </item>    
+  <item>
+    <name>Arrow right to control d</name>
+    <identifier>Arrow right to control d</identifier>
+    <autogen>__KeyToKey__ KeyCode::D, ModifierFlag::OPTION_L, KeyCode::CURSOR_RIGHT</autogen>
+  </item>
+  <item>
+    <name>Move word forward</name>
+    <identifier>Move word forward</identifier>
+    <autogen>__KeyToKey__ KeyCode::E, ModifierFlag::OPTION_L, KeyCode::CURSOR_RIGHT, ModifierFlag::OPTION_L</autogen>
+  </item>      
+  <item>
+    <name>Move word backward</name>
+    <identifier>Move word backward</identifier>
+    <autogen>__KeyToKey__ KeyCode::Q, ModifierFlag::OPTION_L, KeyCode::CURSOR_LEFT, ModifierFlag::OPTION_L</autogen>
+  </item>        
+  <item>
+    <name>Delete word back</name>
+    <identifier>Delete word back</identifier>
+    <autogen>__KeyToKey__ KeyCode::J, ModifierFlag::OPTION_L, ModifierFlag::COMMAND_L, KeyCode::DELETE, ModifierFlag::OPTION_L</autogen>
+  </item>      
+  <item>
+    <name>Delete word forward</name>
+    <identifier>Delete word forward</identifier>
+    <autogen>__KeyToKey__ KeyCode::K, ModifierFlag::OPTION_L, ModifierFlag::COMMAND_L, KeyCode::FORWARD_DELETE, ModifierFlag::OPTION_L</autogen>
+  </item>        
+  <item>
+    <name>Delete back</name>
+    <identifier>Delete back</identifier>
+    <autogen>__KeyToKey__ KeyCode::J, ModifierFlag::OPTION_L, KeyCode::DELETE</autogen>
+  </item>      
+  <item>
+    <name>Delete forward</name>
+    <identifier>Delete forward</identifier>
+    <autogen>__KeyToKey__ KeyCode::K, ModifierFlag::OPTION_L, KeyCode::FORWARD_DELETE</autogen>
+  </item>          
+</root>
