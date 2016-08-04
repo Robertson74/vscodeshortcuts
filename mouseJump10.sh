@@ -1,0 +1,1 @@
+./mouseJump $1
