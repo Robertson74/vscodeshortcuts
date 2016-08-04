@@ -49,5 +49,55 @@
     <name>Delete forward</name>
     <identifier>Delete forward</identifier>
     <autogen>__KeyToKey__ KeyCode::K, ModifierFlag::CONTROL_L, ModifierFlag::COMMAND_R, KeyCode::FORWARD_DELETE</autogen>
-  </item>          
+  </item>       
+  <item>
+    <name>Mouse up</name>
+    <identifier>Mouse up</identifier>
+    <autogen>__KeyToKey__ KeyCode::W, ModifierFlag::COMMAND_L, ModifierFlag::COMMAND_R, KeyCode::VK_MOUSEKEY_UP</autogen>
+  </item>       
+  <item>
+    <name>Mouse down</name>
+    <identifier>Mouse down</identifier>
+    <autogen>__KeyToKey__ KeyCode::S, ModifierFlag::COMMAND_L, ModifierFlag::COMMAND_R, KeyCode::VK_MOUSEKEY_DOWN</autogen>
+  </item>      
+  <item>
+    <name>Mouse Left</name>
+    <identifier>Mouse Left</identifier>
+    <autogen>__KeyToKey__ KeyCode::A, ModifierFlag::COMMAND_L, ModifierFlag::COMMAND_R, KeyCode::VK_MOUSEKEY_LEFT</autogen>
+  </item>        
+  <item>
+    <name>Mouse Right</name>
+    <identifier>Mouse Right</identifier>
+    <autogen>__KeyToKey__ KeyCode::D, ModifierFlag::COMMAND_L, ModifierFlag::COMMAND_R, KeyCode::VK_MOUSEKEY_RIGHT</autogen>
+  </item>        
+  <item>
+    <name>Mouse up/left</name>
+    <identifier>Mouse up/left</identifier>
+    <autogen>__KeyToKey__ KeyCode::Q, ModifierFlag::COMMAND_L, ModifierFlag::COMMAND_R, KeyCode::KEYPAD_7</autogen>
+  </item>        
+  <item>
+    <name>Mouse up/right</name>
+    <identifier>Mouse up/right</identifier>
+    <autogen>__KeyToKey__ KeyCode::E, ModifierFlag::COMMAND_L, ModifierFlag::COMMAND_R, KeyCode::KEYPAD_9</autogen>
+  </item>        
+  <item>
+    <name>Mouse down/left</name>
+    <identifier>Mouse down/left</identifier>
+    <autogen>__KeyToKey__ KeyCode::Z, ModifierFlag::COMMAND_L, ModifierFlag::COMMAND_R, KeyCode::KEYPAD_1</autogen>
+  </item>        
+  <item>
+    <name>Mouse down/right</name>
+    <identifier>Mouse down/right</identifier>
+    <autogen>__KeyToKey__ KeyCode::C, ModifierFlag::COMMAND_L, ModifierFlag::COMMAND_R, KeyCode::KEYPAD_3</autogen>
+  </item>        
+  <item>
+    <name>Mouse click</name>
+    <identifier>Mouse click</identifier>
+    <autogen>__KeyToKey__ KeyCode::N, ModifierFlag::COMMAND_L, ModifierFlag::COMMAND_R, KeyCode::KEYPAD_5</autogen>
+  </item>        
+  <item>
+    <name>Mouse right click</name>
+    <identifier>Mouse right click</identifier>
+    <autogen>__KeyToKey__ KeyCode::B, ModifierFlag::COMMAND_L, ModifierFlag::COMMAND_R, PointingButton::RIGHT,  ModifierFlag::MOUSE_KEYS_MODE_2</autogen>
+  </item>        
 </root>
